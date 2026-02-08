@@ -11,7 +11,7 @@ export const Footer = () => {
               <span className="text-primary-foreground font-bold text-sm">∞</span>
             </div>
             <span className="text-foreground font-semibold text-lg tracking-tight">
-              StableFlow
+              RailX
             </span>
           </div>
 
@@ -45,7 +45,7 @@ export const Footer = () => {
             Non-custodial. Early-stage infrastructure. Use at your own risk.
           </p>
           <p className="text-center text-muted-foreground/50 text-xs mt-2">
-            © {new Date().getFullYear()} StableFlow. All rights reserved.
+            © {new Date().getFullYear()} RailX. All rights reserved.
           </p>
         </div>
       </div>

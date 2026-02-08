@@ -41,7 +41,7 @@ export const Header = () => {
               <span className="text-primary-foreground font-bold text-sm">∞</span>
             </div>
             <span className="text-foreground font-semibold text-lg tracking-tight">
-              StableFlow
+              RailX
             </span>
           </a>
 

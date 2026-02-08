@@ -49,16 +49,16 @@ export const DevelopersSection = () => {
                   <pre className="text-muted-foreground">
                     <code>
                       <span className="text-purple-400">import</span>{' '}
-                      <span className="text-foreground">{'{ StableFlow }'}</span>{' '}
+                      <span className="text-foreground">{'{ RailX }'}</span>{' '}
                       <span className="text-purple-400">from</span>{' '}
-                      <span className="text-primary">'@stableflow/sdk'</span>;{'\n\n'}
+                      <span className="text-primary">'@railx/sdk'</span>;{'\n\n'}
                       
                       <span className="text-muted-foreground/60">// Initialize the client</span>{'\n'}
                       <span className="text-purple-400">const</span>{' '}
                       <span className="text-foreground">client</span>{' '}
                       <span className="text-primary">=</span>{' '}
                       <span className="text-purple-400">new</span>{' '}
-                      <span className="text-cyan-400">StableFlow</span>({'\n'}
+                      <span className="text-cyan-400">RailX</span>({'\n'}
                       {'  '}network: <span className="text-primary">'mainnet'</span>,{'\n'}
                       {'  '}apiKey: process.env.<span className="text-foreground">API_KEY</span>{'\n'}
                       );{'\n\n'}
