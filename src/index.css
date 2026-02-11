@@ -17,7 +17,7 @@
     --popover: 230 25% 8%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 187 100% 50%;
+    --primary: 187 100% 42%;
     --primary-foreground: 230 25% 5%;
 
     --secondary: 230 20% 12%;
@@ -26,7 +26,7 @@
     --muted: 230 20% 15%;
     --muted-foreground: 215 20% 55%;
 
-    --accent: 200 100% 60%;
+    --accent: 200 100% 52%;
     --accent-foreground: 230 25% 5%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,30 +34,30 @@
 
     --border: 230 20% 18%;
     --input: 230 20% 15%;
-    --ring: 187 100% 50%;
+    --ring: 187 100% 42%;
 
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(187 100% 50%) 0%, hsl(200 100% 60%) 50%, hsl(220 100% 65%) 100%);
-    --gradient-glow: linear-gradient(135deg, hsl(187 100% 50% / 0.3) 0%, hsl(200 100% 60% / 0.1) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(187 100% 42%) 0%, hsl(200 100% 52%) 50%, hsl(220 100% 57%) 100%);
+    --gradient-glow: linear-gradient(135deg, hsl(187 100% 42% / 0.3) 0%, hsl(200 100% 52% / 0.1) 100%);
     --gradient-card: linear-gradient(135deg, hsl(230 25% 10% / 0.8) 0%, hsl(230 25% 8% / 0.9) 100%);
-    --gradient-hero: radial-gradient(ellipse at 50% 0%, hsl(200 100% 50% / 0.15) 0%, transparent 60%);
+    --gradient-hero: radial-gradient(ellipse at 50% 0%, hsl(200 100% 42% / 0.15) 0%, transparent 60%);
     
     --glass-bg: hsl(230 25% 10% / 0.6);
-    --glass-border: hsl(187 100% 50% / 0.15);
+    --glass-border: hsl(187 100% 42% / 0.15);
     --glass-shadow: 0 8px 32px hsl(0 0% 0% / 0.3);
 
-    --text-gradient: linear-gradient(135deg, hsl(187 100% 60%) 0%, hsl(200 100% 70%) 100%);
+    --text-gradient: linear-gradient(135deg, hsl(187 100% 52%) 0%, hsl(200 100% 62%) 100%);
 
     --sidebar-background: 230 25% 8%;
     --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 187 100% 50%;
+    --sidebar-primary: 187 100% 42%;
     --sidebar-primary-foreground: 230 25% 5%;
     --sidebar-accent: 230 20% 15%;
     --sidebar-accent-foreground: 210 40% 98%;
     --sidebar-border: 230 20% 18%;
-    --sidebar-ring: 187 100% 50%;
+    --sidebar-ring: 187 100% 42%;
   }
 
   .dark {
@@ -98,12 +98,12 @@
   }
 
   .glow-text {
-    text-shadow: 0 0 40px hsl(187 100% 50% / 0.5);
+    text-shadow: 0 0 40px hsl(187 100% 42% / 0.5);
   }
 
   .glow-box {
-    box-shadow: 0 0 60px hsl(187 100% 50% / 0.15),
-                0 0 100px hsl(200 100% 60% / 0.1);
+    box-shadow: 0 0 60px hsl(187 100% 42% / 0.15),
+                0 0 100px hsl(200 100% 52% / 0.1);
   }
 
   .gradient-border {
