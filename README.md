@@ -1,73 +1,145 @@
-# Welcome to your Lovable project
+# RailX Landing Page
 
-## Project info
+> The Global Liquidity Layer for Stablecoins
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A modern, production-ready landing page for RailX - an instant, capital-efficient stablecoin bridge protocol powered by Solana-speed liquidity pools.
 
-## How can I edit this code?
+## 🚀 Features
 
-There are several ways of editing your application.
+- **Modern Design**: Premium dark theme with glassmorphism effects and smooth animations
+- **Responsive**: Fully responsive design optimized for all devices
+- **Performance**: Built with Vite for lightning-fast load times
+- **Type-Safe**: Written in TypeScript for reliability
+- **Accessible**: WCAG-compliant components with proper ARIA labels
 
-**Use Lovable**
+## 🛠️ Tech Stack
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+- **Framework**: React 18 with TypeScript
+- **Build Tool**: Vite 5
+- **Styling**: Tailwind CSS with custom design system
+- **UI Components**: shadcn/ui (Radix UI primitives)
+- **Animations**: Framer Motion
+- **Routing**: React Router v6
+- **State Management**: TanStack Query (React Query)
 
-Changes made via Lovable will be committed automatically to this repo.
+## 📦 Installation
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js 18+ and npm (or use [nvm](https://github.com/nvm-sh/nvm))
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Setup
 
-Follow these steps:
+```bash
+# Clone the repository
+git clone https://github.com/railx-ai/landing-page.git
+cd landing-page
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Install dependencies
+npm install
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:5173`
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🏗️ Development
 
-**Use GitHub Codespaces**
+### Available Scripts
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+# Start development server with hot reload
+npm run dev
 
-## What technologies are used for this project?
+# Build for production
+npm run build
 
-This project is built with:
+# Build for development (with source maps)
+npm run build:dev
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+# Preview production build
+npm run preview
 
-## How can I deploy this project?
+# Run linter
+npm run lint
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+# Run tests
+npm run test
 
-## Can I connect a custom domain to my Lovable project?
+# Run tests in watch mode
+npm run test:watch
+```
 
-Yes, you can!
+### Project Structure
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+```
+landing/
+├── src/
+│   ├── components/          # React components
+│   │   ├── sections/        # Page sections (Hero, Features, etc.)
+│   │   └── ui/              # Reusable UI components
+│   ├── pages/               # Page components
+│   ├── hooks/               # Custom React hooks
+│   ├── lib/                 # Utility functions
+│   └── index.css           # Global styles and theme
+├── public/                  # Static assets
+└── tailwind.config.ts       # Tailwind configuration
+```
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🎨 Design System
+
+The landing page uses a custom design system with:
+
+- **Primary Color**: Electric cyan-blue (`hsl(187 100% 42%)`)
+- **Accent Color**: Bright blue (`hsl(200 100% 52%)`)
+- **Theme**: Dark-first with glassmorphism effects
+- **Typography**: Inter font family
+- **Spacing**: Consistent 8px grid system
+
+## 📱 Sections
+
+- **Hero**: Main value proposition with CTA
+- **Problem**: Challenges in current stablecoin bridges
+- **Solution**: How RailX solves these problems
+- **Solana**: Solana-first architecture benefits
+- **Liquidity Providers**: Benefits for LPs
+- **Developers**: SDK and integration guide
+- **Vision**: Long-term roadmap
+- **Roadmap**: Development milestones
+- **CTA**: Final call-to-action
+
+## 🌐 Deployment
+
+### Build for Production
+
+```bash
+npm run build
+```
+
+The production build will be in the `dist/` directory, ready to be deployed to any static hosting service.
+
+### Recommended Hosting
+
+- **Vercel**: Automatic deployments from GitHub
+- **Netlify**: Continuous deployment with previews
+- **Cloudflare Pages**: Global CDN with edge computing
+- **GitHub Pages**: Free hosting for public repos
+
+## 📄 License
+
+Copyright © 2024 RailX. All rights reserved.
+
+## 🤝 Contributing
+
+We welcome contributions! Please see our contributing guidelines for more information.
+
+## 📧 Contact
+
+- **Website**: [railx.ai](https://railx.ai)
+- **GitHub**: [@railx-ai](https://github.com/railx-ai)
+- **Twitter**: [@RailX](https://twitter.com/RailX)
+
+---
+
+Built with ❤️ by the RailX team
